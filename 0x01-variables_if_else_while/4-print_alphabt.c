@@ -3,17 +3,17 @@
 #include <string.h>
 
 /**
- * main Prints lower case exept e&q.
+ * main - Prints all the letters except q and e.
  *
- * Return: 0 each time
+ * Return: 0 eachtime (Success)
  */
 int main(void)
 {
-	int alpha;
+	int i;
 
-	for (alpha = 97; alpha < 123; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (alpha != 101 && alpha != 113)
+		if (i != 'e' && i != 'q')
 		{
 			putchar(i);
 		}
