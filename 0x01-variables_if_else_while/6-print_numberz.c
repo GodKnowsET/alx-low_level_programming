@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int zerotonine;
+	int i;
 
-	for (zerotonine = 0; zerotonine < 10; zerotonine++)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(zerotonine%10 + '0');
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
