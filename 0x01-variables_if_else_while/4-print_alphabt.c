@@ -1,20 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 /**
- * main - Prints lower case exept e&q
+ * main Prints lower case exept e&q.
  *
  * Return: 0 each time
  */
-int main()
+int main(void)
 {
-	char letters;
-	for(letters='a'; letters<='z'; letters++)
+	int alpha;
+
+	for (alpha = 97; alpha < 123; i++)
 	{
-	if(letters=='e' || letters=='q')
-	continue;
-	}
-	{
-		putchar(letters);
+		if (alpha != 101 && alpha != 113)
+		{
+			putchar(i);
+		}
 	}
 	putchar('\n');
-       return(0);	
+	return (0);
 }
