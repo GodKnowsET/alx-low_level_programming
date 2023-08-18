@@ -3,10 +3,10 @@
 /**
  * get_op_func - Chooses the correct function to run
  *               the operation demanded by the user.
- * @s: The operator passed as an argument.
+ * @s: operator passed as an argument.
  *
- * Return: A pointer to a function is corresponding
- *         to the operator given as a parameter.
+ * Return: pointer to a function is corresponding
+ *         to the operator will be given as a parameter.
  */
 int (*get_op_func(char *s))(int, int)
 {
